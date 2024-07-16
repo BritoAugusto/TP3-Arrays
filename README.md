@@ -1,4 +1,4 @@
-# Trabajo Práctico 3- Bucles
+# Trabajo Práctico 3- Arrays
 
 Este es un trabajo práctico donde se realiza ejercicios con javascript utilizando condicionales, bucles, y arrays.
 
