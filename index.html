@@ -1,17 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    meta name="author" content="Augusto Brito">
+    <meta name="author" content="Augusto Brito" />
     <meta name="description" content="trabajo practico sobre js" />
     <meta
       name="keywords"
       content="arrays, variables, bucles, javascript, desarrollo web, lenguaje de programacion"
     />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Trabajo Práctico Arrays</title>
   </head>
   <body>
-    
+    <header><h1 class="tituloCentrado">Cajero Automático</h1></header>
+    <main>
+      <h3 class="tituloCentrado">Elija las siguientes opciones</h3>
+      <div class="tituloCentrado">
+<button class="btn" onclick="verSaldo()">Ver saldo</button>
+<button class="btn" onclick="mostrarFormulario('ingresar')">Ingresar Dinero</button>
+<button class="btn" onclick="mostrarFormulario('retirar')">Retirar Dinero</button>
+<button class="btn" onclick="verTransacciones()">Ver Transacciones</button>
+<a class="btn" href="index.html" onclick="salir()">Salir</a>
+      </div>
+      <div id="formulario" class="form">
+<input type="number" id="monto" placeholder="Ingresar el Monto">
+<button onclick="procesarFormulario()">Aceptar</button>
+      </div>
+      <div id="salida"></div>
+    </main>
+    <footer></footer>
+    <!-- <script src="./js/07-ejercicio.js"></script>  -->
+    <script src="./js/cajeroAutomatico.js"></script>
   </body>
 </html>
