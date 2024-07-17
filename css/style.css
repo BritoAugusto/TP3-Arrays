@@ -5,3 +5,41 @@ table, td, th {
 td {
     padding: 5px;
 }
+
+
+
+.form {
+    display: none;
+    text-align: center;
+    padding-top: 20px;
+}
+.tituloCentrado, p {
+    text-align: center;
+}
+
+h3 {
+    color: rgb(207, 16, 16);
+}
+
+button {
+    color: rgb(243, 243, 243);
+    background-color: rgb(24, 4, 209);
+}
+
+.btn {
+    color: white;
+    border: 1px solid blue;
+    background-color: blue;
+    padding: 10px;
+}
+
+@media all and (max-width: 767px) {
+     button{ 
+         margin-top: 10px;
+         margin-left: 5px;
+    }
+    a{
+        margin-left: 20px;
+    }
+   
+}
